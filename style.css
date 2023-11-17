@@ -73,6 +73,10 @@ header img {
   padding: 1rem;
 }
 
+.main-content p {
+  color: #A1AEB7
+}
+
 .main-content img {
   max-width: 100%;
   border-radius: 6px;
@@ -143,4 +147,37 @@ header img {
 
 .types-of-services .icon-item {
   display: flex;
+}
+
+/* ======== How Lifeline Works - Mobile ======== */
+.how-lifeline-works {
+  text-align: center;
+  color: #A1AEB7;
+  padding: 1rem;
+}
+
+.how-lifeline-works i {
+  font-size: 35px;
+  display: block;
+}
+
+.how-lifeline-works p {
+  font-size: 22px;
+}
+
+.how-lifeline-works span {
+  font-size: 50px;
+  border-radius: 50%;
+  border: 1px solid #A1AEB7;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  color: #A1AEB7;
+  margin: 2rem;
+}
+
+.how-lifeline-works .item {
+  margin: 3rem 0;
 }
