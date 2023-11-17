@@ -1,6 +1,6 @@
 /* ======== Html ======== */
 html {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
   color: #424B5A;
 }
@@ -13,7 +13,7 @@ html {
 
 /* ======== Header - Mobile ======== */
 header {
-  background-color: #F5FCFB;
+  background-color: #E7F5F3;
   /* background-color: #adecdc; */
   display: flex;
   justify-content: space-between;
@@ -179,5 +179,5 @@ header img {
 }
 
 .how-lifeline-works .item {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
