@@ -5,6 +5,11 @@ html {
   color: #424B5A;
 }
 
+/* ======== Body ======== */
+body {
+  margin: 0;
+}
+
 /* ======== Global ======== */
 
 .wrapper-width {
