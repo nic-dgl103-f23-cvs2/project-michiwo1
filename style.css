@@ -13,7 +13,7 @@ html {
 
 /* ======== Header - Mobile ======== */
 header {
-  background-color: #F2F5F7;
+  background-color: #F5FCFB;
   /* background-color: #adecdc; */
   display: flex;
   justify-content: space-between;
@@ -64,7 +64,7 @@ header img {
 
 /* ======== Main Content - Mobile ======== */
 .main-content {
-  background-color: #F2F5F7;
+  background-color: #F5FCFB;
   text-align: center;
 }
 
@@ -97,7 +97,7 @@ header img {
 }
 
 .content-columns .item {
-  background-color: #F2F5F7;
+  background-color: #F5FCFB;
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 4px;
@@ -105,6 +105,10 @@ header img {
 }
 
 /* ======== Types of Services - Mobile ======== */
+.types-of-services {
+  text-align: center;
+}
+
 .types-of-services h3 {
   margin: 0;
 }
@@ -112,6 +116,29 @@ header img {
 .types-of-services i {
   font-size: 25px;
   margin-right: 1rem;
+}
+
+.types-of-services p {
+  color: #A1AEB7
+}
+
+.types-of-services a {
+  background-color: #248F76;
+  color: #ffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6rem 3rem 0.6rem 3rem;
+  margin: 1.5rem;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 20%;
+}
+
+.types-of-services .item {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.6px solid #A1AEB7;
+  text-align: left;
 }
 
 .types-of-services .icon-item {
