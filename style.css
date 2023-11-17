@@ -5,6 +5,12 @@ html {
   color: #424B5A;
 }
 
+/* ======== Global ======== */
+
+.wrapper-width {
+  padding: 1rem;
+}
+
 /* ======== Header - Mobile ======== */
 header {
   background-color: #F2F5F7;
@@ -72,10 +78,28 @@ header img {
   border-radius: 6px;
 }
 
-.main-content .wrapper-width {
-  padding: 1rem;
-}
-
 .main-content .item {
   margin: 2rem 0;
+}
+
+/* ======== Content Columns - Mobile ======== */
+.content-columns {
+  text-align: center;
+}
+
+.content-columns img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.content-columns p {
+  color: #A1AEB7
+}
+
+.content-columns .item {
+  background-color: #F2F5F7;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  text-align: left;
 }
