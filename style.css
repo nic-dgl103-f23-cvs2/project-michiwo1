@@ -38,7 +38,6 @@ header img {
 /* ======== Main Banner - Mobile ======== */
 .main-banner {
   background-image: url(images/old-peoples.png);
-  /* TODO: Change rgba */
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: lighten;
   background-size: cover;
@@ -134,8 +133,9 @@ header img {
 }
 
 .types-of-services i {
-  font-size: 25px;
+  font-size: 30px;
   margin-right: 1rem;
+  margin-top: 0.1rem;
 }
 
 .types-of-services p {
@@ -163,6 +163,11 @@ header img {
 
 .types-of-services .icon-item {
   display: flex;
+}
+
+/* ======== Video Section - Mobile ======== */
+.video-section {
+  text-align: center;
 }
 
 /* ======== How Lifeline Works - Mobile ======== */
