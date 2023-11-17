@@ -181,3 +181,39 @@ header img {
 .how-lifeline-works .item {
   margin: 2rem 0;
 }
+
+/* ======== Footer - Mobile ======== */
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+footer nav {
+  margin-bottom: 3rem;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+footer li {
+  margin: 1rem 2rem 0 0;
+}
+
+footer p {
+  border-top: 1px solid #A1AEB7;
+  padding-top: 1rem;
+  color: #A1AEB7;
+}
+
+footer a {
+  text-decoration: none;
+  color: #505D68;
+  font-size: 18px;
+}
+
+footer img {
+  max-width: 50%;
+  max-height: 50%;
+}
