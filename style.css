@@ -103,3 +103,17 @@ header img {
   border-radius: 4px;
   text-align: left;
 }
+
+/* ======== Types of Services - Mobile ======== */
+.types-of-services h3 {
+  margin: 0;
+}
+
+.types-of-services i {
+  font-size: 25px;
+  margin-right: 1rem;
+}
+
+.types-of-services .icon-item {
+  display: flex;
+}
