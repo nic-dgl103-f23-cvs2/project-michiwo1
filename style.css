@@ -2,6 +2,7 @@
 html {
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
+  color: #424B5A;
 }
 
 /* ======== Header - Mobile ======== */
@@ -12,7 +13,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem 0 1rem;
-  color: #424B5A;
 }
 
 header nav {
@@ -27,10 +27,10 @@ header img {
 /* ======== Main Banner - Mobile ======== */
 .main-banner {
   background-image: url(images/old-peoples.png);
+  /* TODO: Change rgba */
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
   background-size: cover;
-  color: #424B5A;
   text-align: center;
 }
 
@@ -54,4 +54,28 @@ header img {
   font-size: 12px;
   border-radius: 4px;
   width: 20%;
+}
+
+/* ======== Main Content - Mobile ======== */
+.main-content {
+  background-color: #F2F5F7;
+  text-align: center;
+}
+
+.main-content h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
+.main-content img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.main-content .wrapper-width {
+  padding: 1rem;
+}
+
+.main-content .item {
+  margin: 2rem 0;
 }
