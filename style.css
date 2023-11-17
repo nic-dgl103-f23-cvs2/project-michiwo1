@@ -1,0 +1,19 @@
+/* ======== Header - Mobile ======== */
+header {
+  background-color: #F2F5F7;
+  /* background-color: #adecdc; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  color: #424B5A;
+}
+
+header nav {
+  display: none;
+}
+
+header img {
+  max-width: 50px;
+  max-height: 50px;
+}
