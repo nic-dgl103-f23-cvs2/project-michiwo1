@@ -39,7 +39,7 @@ header img {
 .main-banner {
   background-image: url(images/old-peoples.png);
   /* TODO: Change rgba */
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: lighten;
   background-size: cover;
   text-align: center;
@@ -55,13 +55,24 @@ header img {
   font-size: 18px;
 }
 
+.main-banner p {
+  margin: 1rem;
+  font-size: 16px;
+}
+
 .main-banner a {
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.main-banner .button {
   background-color: #248F76;
   color: #ffff;
   text-decoration: none;
   display: inline-block;
   padding: 0.6rem 3rem 0.6rem 3rem;
-  margin: 1.5rem;
+  margin: 1rem;
   font-size: 12px;
   border-radius: 4px;
   width: 20%;
