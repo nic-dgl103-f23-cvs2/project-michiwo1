@@ -415,4 +415,20 @@ footer img {
     grid-template-rows: auto auto;
   }
 
+  /* ======== Footer - Desktop ======== */
+  footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.6px solid #A1AEB7;
+    margin: 1rem 3rem;
+  }
+
+  footer ul {
+    display: flex;
+  }
+
+  footer img {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
