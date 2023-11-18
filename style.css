@@ -398,4 +398,16 @@ footer img {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
+
+  /* ======== How-lifeline-works - Desktop ======== */
+  .how-lifeline-works .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+  }
+
+  .how-lifeline-works .item {
+    gap: 1rem;
+  }
 }
