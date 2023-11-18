@@ -27,8 +27,13 @@
         <li><a href="">Contact us</a></li>
       </ul>
     </nav>
-    <!-- TODO: Make the hamburger menu clickable. -->
     <a class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <!-- Javascript to make the hamburger menu work -->
+    <script>
+      document.querySelector('.toggle').addEventListener('click', function () {
+        document.querySelector('nav').classList.toggle('show');
+      });
+    </script>
   </header>
   <main>
     <section class="main-banner">

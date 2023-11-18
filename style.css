@@ -23,19 +23,44 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem 0 1rem;
-  overflow: auto;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+header img {
+  max-width: 50px;
+  max-height: 50px;
 }
 
 header nav {
   display: none;
 }
 
-header img {
-  max-width: 50px;
-  max-height: 50px;
+header nav.show {
+  display: block;
+  position: absolute;
+  top: 100%;
+  background-color: #248F76;
+  overflow: hidden;
+  font-size: 16px;
+  width: 100%;
+  left: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: left;
+  border-bottom: 0.6px solid #A1AEB7;
 }
 
 header .toggle {
@@ -286,10 +311,11 @@ footer img {
     list-style: none;
   }
 
-  header a {
+  header nav li a {
     font-size: 16px;
     color: #505D68;
-    text-decoration: none;
+    padding: 0;
+    border-bottom: 0;
   }
 
   header .toggle {
