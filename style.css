@@ -1,7 +1,8 @@
 /* ======== Html ======== */
 html {
+  /* The font size is larger as the site is aimed at older people. */
   font-size: 25px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #424B5A;
 }
 
@@ -75,6 +76,7 @@ header .toggle {
   background-size: cover;
   text-align: center;
   margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-banner h1 {
@@ -176,6 +178,7 @@ header .toggle {
 /* ======== Types of Services - Mobile ======== */
 .types-of-services {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .types-of-services h3 {
@@ -251,6 +254,7 @@ header .toggle {
 
 .how-lifeline-works .item {
   margin: 2rem 0;
+  padding: 1rem;
 }
 
 /* ======== Footer - Mobile ======== */
@@ -462,6 +466,7 @@ footer img {
     border-top: 0.6px solid #A1AEB7;
     margin: 1rem 3rem;
     padding: 2rem 0;
+    font-family: 'Roboto', sans-serif;
   }
 
   footer ul {
