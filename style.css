@@ -110,6 +110,10 @@ header img {
   margin: 2rem 0;
 }
 
+.main-content .item-for-desktop {
+  display: none;
+}
+
 /* ======== Content Columns - Mobile ======== */
 .content-columns {
   text-align: center;
@@ -323,5 +327,31 @@ footer img {
     border-radius: 4px;
     width: 20%;
     text-align: center;
+  }
+
+  /* ======== Main Content - Desktop ======== */
+  .main-content {
+    padding: 2rem;
+  }
+
+  .main-content p {
+    padding: 3rem;
+  }
+
+  .main-content .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .main-content .item-for-mobile {
+    display: none;
+  }
+
+  .main-content .item-for-desktop {
+    display: block;
   }
 }
