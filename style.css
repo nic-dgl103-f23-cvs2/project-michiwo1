@@ -399,6 +399,15 @@ footer img {
     grid-row: 2 / 3;
   }
 
+  /* ======== Types of Services - Desktop ======== */
+  .types-of-services {
+    padding: 4rem;
+  }
+
+  .types-of-services a {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+  }
+
   /* ======== How-lifeline-works - Desktop ======== */
   .how-lifeline-works .grid-container {
     display: grid;
@@ -408,6 +417,6 @@ footer img {
   }
 
   .how-lifeline-works .item {
-    gap: 1rem;
+    padding: 2rem;
   }
 }
