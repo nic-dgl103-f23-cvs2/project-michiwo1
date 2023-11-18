@@ -413,10 +413,6 @@ footer img {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    gap: 2rem;
   }
 
-  .how-lifeline-works .item {
-    padding: 2rem;
-  }
 }
