@@ -49,6 +49,7 @@ header .toggle {
   background-blend-mode: lighten;
   background-size: cover;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .main-banner h1 {
@@ -273,6 +274,7 @@ footer img {
 
   header nav {
     display: block;
+    margin-right: 2rem;
   }
 
   header ul {
