@@ -552,16 +552,21 @@ footer img {
   /* ======== Service Options Page ======== */
   /* ======== Lifeline Communicator Units - Desktop ======== */
   .lifeline-communicator-units {
-    text-align: center;
+    text-align: left;
   }
 
-  .lifeline-communicator-units .item {
+  .lifeline-communicator-units .flex-container {
+    display: flex;
     padding: 2rem;
+    text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    width: 50%;
-    margin: auto;
     margin-top: 2rem;
+    align-items: center;
+  }
+
+  .lifeline-communicator-units .flex-item {
+    padding: 3rem;
   }
 
   /* ======== Personal Help Buttons - Desktop ======== */
@@ -572,7 +577,7 @@ footer img {
   .personal-help-buttons .flex-item {
     padding: 1rem;
     margin: 1rem 0;
-    border-radius: 8px;
+    border-radius: 0;
     background-color: #ffff;
     flex: 1;
     object-fit: cover;
