@@ -17,10 +17,6 @@ body {
   padding: 1rem;
 }
 
-.for-desktop {
-  display: none;
-}
-
 /* ======== Header - Mobile ======== */
 header {
   background-color: #E7F5F3;
@@ -320,6 +316,10 @@ footer img {
   border-radius: 4px;
 }
 
+.lifeline-communicator-units .container-for-desktop {
+  display: none;
+}
+
 /* ======== Personal Help Buttons - Mobile ======== */
 .personal-help-buttons {
   text-align: center;
@@ -360,11 +360,6 @@ footer img {
 
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-  /* ======== Global ======== */
-  .for-mobile {
-    display: none;
-  }
 
   /* ======== Header - Desktop ======== */
   header {
@@ -579,6 +574,10 @@ footer img {
 
   .lifeline-communicator-units .flex-item {
     padding: 3rem;
+  }
+
+  .lifeline-communicator-units .container-for-mobile {
+    display: none;
   }
 
   /* ======== Personal Help Buttons - Desktop ======== */
