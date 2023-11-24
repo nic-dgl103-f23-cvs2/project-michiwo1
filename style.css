@@ -295,13 +295,14 @@ footer img {
 }
 
 /* ======== Service Options Page ======== */
+/* ======== Lifeline Communicator Units - Mobile ======== */
 .lifeline-communicator-units {
   text-align: center;
   padding: 1rem;
 }
 
 .lifeline-communicator-units h2 {
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .lifeline-communicator-units p {
@@ -311,6 +312,44 @@ footer img {
 .lifeline-communicator-units img {
   max-width: 100%;
   border-radius: 4px;
+}
+
+/* ======== Personal Help Buttons - Mobile ======== */
+.personal-help-buttons {
+  text-align: center;
+  background-color: #E7F5F3;
+  padding: 1rem;
+}
+
+.personal-help-buttons img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.personal-help-buttons ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.personal-help-buttons p {
+  color: #A1AEB7;
+  font-size: 18px;
+}
+
+.personal-help-buttons ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 0.5px solid #A1AEB7;
+  color: #A1AEB7;
+  font-size: 20px;
+}
+
+.personal-help-buttons .item {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background-color: #ffff;
 }
 
 /* Large devices (desktops, 1200px and up) */
