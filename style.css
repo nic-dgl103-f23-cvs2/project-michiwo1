@@ -347,7 +347,7 @@ footer img {
   font-size: 20px;
 }
 
-.personal-help-buttons .item {
+.personal-help-buttons .flex-item {
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 8px;
@@ -564,7 +564,23 @@ footer img {
     margin-top: 2rem;
   }
 
+  /* ======== Personal Help Buttons - Desktop ======== */
+  .personal-help-buttons .flex-container {
+    display: flex;
+  }
 
+  .personal-help-buttons .flex-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background-color: #ffff;
+    flex: 1;
+    object-fit: cover;
+  }
 
-
+  .personal-help-buttons img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
 }
