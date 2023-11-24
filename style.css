@@ -316,6 +316,10 @@ footer img {
   border-radius: 4px;
 }
 
+.lifeline-communicator-units .container-for-desktop {
+  display: none;
+}
+
 /* ======== Personal Help Buttons - Mobile ======== */
 .personal-help-buttons {
   text-align: center;
@@ -390,7 +394,6 @@ footer img {
   /* ======== Footer - Desktop ======== */
   footer {
     border-top: 0.6px solid #A1AEB7;
-    margin: 1rem 3rem;
     padding: 2rem 0;
     font-family: 'Roboto', sans-serif;
   }
@@ -555,6 +558,10 @@ footer img {
     text-align: left;
   }
 
+  .lifeline-communicator-units h1 {
+    text-align: center;
+  }
+
   .lifeline-communicator-units .flex-container {
     display: flex;
     padding: 2rem;
@@ -567,6 +574,10 @@ footer img {
 
   .lifeline-communicator-units .flex-item {
     padding: 3rem;
+  }
+
+  .lifeline-communicator-units .container-for-mobile {
+    display: none;
   }
 
   /* ======== Personal Help Buttons - Desktop ======== */
