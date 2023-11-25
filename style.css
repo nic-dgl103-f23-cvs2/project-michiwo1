@@ -420,6 +420,25 @@ footer img {
   margin-top: 1rem;
 }
 
+/* ======== By Email - Mobile ======== */
+.by-email {
+  text-align: center;
+  padding: 1rem;
+}
+
+.by-email h2 {
+  font-size: 30px;
+}
+
+.by-email p {
+  font-size: 20px;
+  color: #A1AEB7;
+}
+
+.by-email img {
+  max-width: 30%;
+}
+
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
