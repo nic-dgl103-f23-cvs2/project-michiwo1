@@ -745,4 +745,30 @@ footer img {
     height: 300px;
     object-fit: cover;
   }
+
+  /* ======== Contact us Page ======== */
+  /* ======== Office Phone Numbers - Desktop ======== */
+  .office-phone-numbers {
+    text-align: center;
+    padding: 6rem;
+  }
+
+  .office-phone-numbers h2 {
+    font-size: 30px;
+  }
+
+  .office-phone-numbers img {
+    max-width: 10%;
+    border-radius: 4px;
+  }
+
+  .office-phone-numbers table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  .office-phone-numbers td {
+    font-size: 25px;
+  }
 }
