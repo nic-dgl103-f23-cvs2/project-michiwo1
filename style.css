@@ -795,8 +795,7 @@ footer img {
     margin: 2rem 4rem;
   }
 
-  .our-main-office-location .background-image-map {
-    background-image: url('images/map-marker.png');
+  .our-main-office-location .background-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.9);
@@ -806,15 +805,12 @@ footer img {
     padding: 3rem 1rem;
   }
 
-  .our-main-office-location .background-image-clock {
+  .our-main-office-location .map {
+    background-image: url('images/map-marker.png');
+  }
+
+  .our-main-office-location .clock {
     background-image: url('images/clock.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.9);
-    background-blend-mode: lighten;
-    background-size: 40%;
-    background-position: center;
-    padding: 3rem 1rem;
   }
 
 
