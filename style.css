@@ -477,7 +477,6 @@ footer img {
 
 .request-information form {
   width: 100%;
-  max-width: 600px;
 }
 
 .request-information label {
@@ -497,7 +496,7 @@ footer img {
 }
 
 .request-information input[type="submit"] {
-  padding: 10px 20px;
+  padding: 0.6rem 3rem 0.6rem 3rem;
   background-color: #248F76;
   color: white;
   border: none;
