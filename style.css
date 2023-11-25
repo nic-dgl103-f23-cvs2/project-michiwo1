@@ -759,7 +759,6 @@ footer img {
 
   .office-phone-numbers img {
     max-width: 10%;
-    border-radius: 4px;
   }
 
   .office-phone-numbers table {
@@ -813,5 +812,19 @@ footer img {
     background-image: url('images/clock.png');
   }
 
+  /* ======== By Email - Desktop ======== */
+  .by-email {
+    text-align: center;
+    padding: 3rem 5rem;
+  }
+
+  .by-email img {
+    max-width: 15%;
+  }
+
+  .by-email .item {
+    margin: 2rem 4rem;
+    font-size: 25px;
+  }
 
 }
