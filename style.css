@@ -746,11 +746,11 @@ footer img {
     object-fit: cover;
   }
 
-  /* ======== Contact us Page ======== */
+  /* ======== Contact Us Page ======== */
   /* ======== Office Phone Numbers - Desktop ======== */
   .office-phone-numbers {
     text-align: center;
-    padding: 6rem;
+    padding: 4rem 8rem;
   }
 
   .office-phone-numbers h2 {
@@ -771,4 +771,51 @@ footer img {
   .office-phone-numbers td {
     font-size: 25px;
   }
+
+  /* ======== Our Main Office Location - Desktop ======== */
+  .our-main-office-location {
+    text-align: center;
+    padding: 3rem 5rem;
+  }
+
+  .our-main-office-location ul {
+    text-align: center;
+  }
+
+  .our-main-office-location ul li {
+    color: #424B5A;
+    font-size: 25px;
+  }
+
+  .our-main-office-location img {
+    display: none;
+  }
+
+  .our-main-office-location .item {
+    margin: 2rem 4rem;
+  }
+
+  .our-main-office-location .background-image-map {
+    background-image: url('images/map-marker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    background-size: 40%;
+    background-position: center;
+    padding: 3rem 1rem;
+  }
+
+  .our-main-office-location .background-image-clock {
+    background-image: url('images/clock.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    background-size: 40%;
+    background-position: center;
+    padding: 3rem 1rem;
+  }
+
+
 }
