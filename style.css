@@ -754,7 +754,7 @@ footer img {
   }
 
   .office-phone-numbers h2 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .office-phone-numbers img {
@@ -775,6 +775,10 @@ footer img {
   .our-main-office-location {
     text-align: center;
     padding: 3rem 5rem;
+  }
+
+  .our-main-office-location h2 {
+    font-size: 35px;
   }
 
   .our-main-office-location ul {
@@ -818,12 +822,32 @@ footer img {
     padding: 3rem 5rem;
   }
 
+  .by-email h2 {
+    font-size: 35px;
+  }
+
   .by-email img {
     max-width: 15%;
   }
 
   .by-email .item {
     margin: 2rem 4rem;
+    font-size: 25px;
+  }
+
+  /* ======== Request Information - Desktop ======== */
+  .request-information {
+    text-align: center;
+    max-width: 50%;
+    padding: 3rem 10rem;
+    margin: auto;
+  }
+
+  .request-information h2 {
+    font-size: 35px;
+  }
+
+  .request-information p {
     font-size: 25px;
   }
 
