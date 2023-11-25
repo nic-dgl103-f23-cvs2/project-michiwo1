@@ -370,6 +370,14 @@ footer img {
   padding: 1rem;
 }
 
+.office-phone-numbers h2 {
+  font-size: 30px;
+}
+
+.office-phone-numbers img {
+  max-width: 20%;
+}
+
 .office-phone-numbers table {
   width: 100%;
   border-collapse: collapse;
@@ -413,11 +421,20 @@ footer img {
   font-size: 20px;
 }
 
+.our-main-office-location img {
+  max-width: 20%;
+}
+
 .our-main-office-location .item {
   border-radius: 8px;
   background-color: #ffff;
   padding: 1rem;
   margin-top: 1rem;
+}
+
+.our-main-office-location .item .flex-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ======== By Email - Mobile ======== */
@@ -452,6 +469,10 @@ footer img {
 .request-information p {
   font-size: 20px;
   color: #A1AEB7;
+}
+
+.request-information img {
+  max-width: 20%;
 }
 
 .request-information form {
