@@ -358,6 +358,12 @@ footer img {
   background-color: #ffff;
 }
 
+/* ======== Contact us Page ======== */
+/* ======== Map - Mobile ======== */
+.map {
+  text-align: center;
+}
+
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
