@@ -794,8 +794,12 @@ footer img {
     display: none;
   }
 
+  .our-main-office-location .flex-container {
+    display: flex;
+  }
+
   .our-main-office-location .item {
-    margin: 2rem 4rem;
+    margin: 1rem;
   }
 
   .our-main-office-location .background-image {
@@ -803,7 +807,7 @@ footer img {
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.9);
     background-blend-mode: lighten;
-    background-size: 40%;
+    background-size: 70%;
     background-position: center;
     padding: 3rem 1rem;
   }
@@ -819,7 +823,7 @@ footer img {
   /* ======== By Email - Desktop ======== */
   .by-email {
     text-align: center;
-    padding: 3rem 5rem;
+    padding: 2rem 5rem;
   }
 
   .by-email h2 {
@@ -839,7 +843,7 @@ footer img {
   .request-information {
     text-align: center;
     max-width: 50%;
-    padding: 3rem 10rem;
+    padding: 1rem 10rem;
     margin: auto;
   }
 
@@ -850,5 +854,4 @@ footer img {
   .request-information p {
     font-size: 25px;
   }
-
 }
