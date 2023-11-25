@@ -436,7 +436,52 @@ footer img {
 }
 
 .by-email img {
-  max-width: 30%;
+  max-width: 20%;
+}
+
+/* ======== Request Information - Mobile ======== */
+.request-information {
+  text-align: center;
+  padding: 1rem;
+}
+
+.request-information h2 {
+  font-size: 30px;
+}
+
+.request-information p {
+  font-size: 20px;
+  color: #A1AEB7;
+}
+
+.request-information form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.request-information label {
+  margin-bottom: 5px;
+  color: #666666;
+  font-size: 18px;
+}
+
+.request-information input[type="text"],
+.request-information input[type="email"],
+.request-information textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.request-information input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #248F76;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* Large devices (desktops, 1200px and up) */
