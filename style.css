@@ -364,6 +364,31 @@ footer img {
   text-align: center;
 }
 
+/* ======== Office phone numbers - Mobile ======== */
+.office-phone-numbers {
+  text-align: center;
+  padding: 1rem;
+}
+
+.office-phone-numbers table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.office-phone-numbers th {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.office-phone-numbers td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
