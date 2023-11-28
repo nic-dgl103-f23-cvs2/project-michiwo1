@@ -703,11 +703,17 @@ footer img {
 
   /* ======== Types of Services - Desktop ======== */
   .types-of-services {
-    padding: 4rem;
+    padding: 2rem 3rem;
   }
 
   .types-of-services a {
     padding: 0.8rem 1rem 0.8rem 1rem;
+  }
+
+  /* ======== Video Section - Desktop ======== */
+  .video-section iframe {
+    width: 60%;
+    height: 500px;
   }
 
   /* ======== How-lifeline-works - Desktop ======== */
