@@ -377,7 +377,7 @@ footer img {
   background-color: #ffff;
 }
 
-/* ======== Contact us Page ======== */
+/* ======== Contact Us Page ======== */
 /* ======== Map - Mobile ======== */
 .map {
   text-align: center;
@@ -785,6 +785,12 @@ footer img {
   }
 
   /* ======== Contact Us Page ======== */
+  /* ======== Map - Desktop ======== */
+  .map iframe {
+    width: 50%;
+    height: 450px;
+  }
+
   /* ======== Office Phone Numbers - Desktop ======== */
   .office-phone-numbers {
     text-align: center;
