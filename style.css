@@ -381,6 +381,19 @@ footer img {
 /* ======== Map - Mobile ======== */
 .map {
   text-align: center;
+  padding: 1rem;
+}
+
+.map iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.map iframe:hover {
+  transform: scale(1.2);
 }
 
 /* ======== Office phone numbers - Mobile ======== */
