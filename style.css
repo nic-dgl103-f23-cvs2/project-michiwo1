@@ -57,11 +57,18 @@ header nav ul {
 
 header nav li a {
   display: block;
-  color: white;
   padding: 14px 16px;
   text-decoration: none;
   text-align: left;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
   border-bottom: 0.6px solid #A1AEB7;
+}
+
+header nav li a:hover {
+  background-color: #2fb596;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 header .toggle {
