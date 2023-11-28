@@ -260,6 +260,21 @@ footer img {
 /* ======== Video Section - Mobile ======== */
 .video-section {
   text-align: center;
+  padding: 1rem;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.video-section iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 
 /* ======== How Lifeline Works - Mobile ======== */
@@ -267,6 +282,10 @@ footer img {
   text-align: center;
   color: #A1AEB7;
   padding: 1rem;
+}
+
+.how-lifeline-works h2 {
+  color: #424B5A;
 }
 
 .how-lifeline-works i {
