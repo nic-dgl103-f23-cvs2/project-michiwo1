@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font-awesome 4.7.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- ↓↓Google Fonts↓↓ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- font-1 Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- font-2 Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- ↑↑Google Fonts↑↑ -->
+  <title>Service Options</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service-options.html">Service Options</a></li>
+        <li><a href="contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <a class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <!-- Javascript to make the hamburger menu work -->
+    <script>
+      document.querySelector('.toggle').addEventListener('click', function () {
+        document.querySelector('nav').classList.toggle('show');
+      });
+    </script>
+  </header>
+  <main>
+    <section class="main-banner">
+      <div class="flex-container">
+        <div class="flex-item">
+          <h1>Comox Valley Lifeline Society</h1>
+          <h2>Help At The Push Of A Button</h2>
+          <a class="lifeline-canada-mobile" href="https://www.lifeline.ca/en/">Lifeline Canada</a>
+          <p>Member of the Western Canadian Association of Lifeline Programs</p>
+          <a class="button" href="http://www.canwestlifeline.com/">Learn More</a>
+          <a class="lifeline-canada-desktop" href="https://www.lifeline.ca/en/">Lifeline Canada</a>
+        </div>
+        <img src="images/old-peoples.png" alt="old-peoples">
+      </div>
+    </section>
+    <section class="lifeline-communicator-units">
+      <h1>Service Options</h1>
+      <div class="flex-container">
+        <img src="images/regular-lifeline-communicator.png" alt="regular-lifeline-communicator">
+        <div class="flex-item">
+          <h2>Regular Lifeline Communicator</h2>
+          <p>A Regular Lifeline Communicator that is connected to an active telephone jack and electrical outlet. This
+            type
+            of unit
+            allows you to connect your existing phone into back of the Lifeline unit so that your phone works through
+            the
+            Lifeline
+            unit.</p>
+        </div>
+      </div>
+      <div class="flex-container container-for-mobile">
+        <div class="flex-item">
+          <img src="images/wireless-lifeline-communicator.png" alt="wireless-lifeline-communicator">
+          <h2>Wireless Lifeline Communicator</h2>
+          <p>A Wireless Lifeline Communicator that works with it's own cellular technology; this unit is connected to an
+            electrical
+            outlet in your home.</p>
+          <p>All Lifeline Communicator Units have a back up battery and work during power outages.</p>
+        </div>
+      </div>
+      <div class="flex-container container-for-desktop">
+        <div class="flex-item">
+          <h2>Wireless Lifeline Communicator</h2>
+          <p>A Wireless Lifeline Communicator that works with it's own cellular technology; this unit is connected to an
+            electrical
+            outlet in your home.</p>
+          <p>All Lifeline Communicator Units have a back up battery and work during power outages.</p>
+        </div>
+        <img src="images/wireless-lifeline-communicator.png" alt="wireless-lifeline-communicator">
+      </div>
+    </section>
+    <section class="personal-help-buttons">
+      <h2>Personal Help Buttons</h2>
+      <div class="flex-container">
+        <div class="flex-item">
+          <img src="images/home-safe-basic.png" alt="home-safe-basic">
+          <h3>HomeSafe Basic</h3>
+          <ul>
+            <li>Light weight</li>
+            <li>Button can be worn around the neck or wrist</li>
+            <li>Long lasting battery we change when needed</li>
+            <li>100% waterproof</li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <img src=" images/home-safe-auto-alert.png" alt="home-safe-auto-alert">
+          <h3>HomeSafe AutoAlert</h3>
+          <ul>
+            <li>Adjustable cord to wear around the neck</li>
+            <li>Fall detection technology</li>
+            <li>Help at the push of the button or an automatic signal sent when a fall is detected*</li>
+            <li>100% waterproof</li>
+          </ul>
+          <p>*AutoAlert does not detect 100% of falls, if able, you should always push your button if you need help.</p>
+        </div>
+        <div class="flex-item">
+          <img src="images/on-the-go-coming-soon.png" alt="on-the-go-coming-soon">
+          <h3>On The Go Coming Soon!</h3>
+          <ul>
+            <li>Adjustable cord to wear around the neck</li>
+            <li>Automatic Fall Detection*</li>
+            <li>Help available at home or on the go where cellular connectivity is available</li>
+            <li>Water Resistant, can be worn in the bath and shower</li>
+          </ul>
+          <p>*The On The Go automatic fall detection dos not detect 100% of falls, if able always push the Help button.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="flex-container">
+      <img src="images/logo.png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service-options.html">About us</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be
+        seen
+        outside of the class environment. None of the content and images were approved by the business owner.</i></p>
+  </footer>
+</body>
+
+</html>

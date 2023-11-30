@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font-awesome 4.7.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- ↓↓Google Fonts↓↓ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- font-1 Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- font-2 Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- ↑↑Google Fonts↑↑ -->
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service-options.html">Service Options</a></li>
+        <li><a href="contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <a class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <!-- Javascript to make the hamburger menu work -->
+    <script>
+      document.querySelector('.toggle').addEventListener('click', function () {
+        document.querySelector('nav').classList.toggle('show');
+      });
+    </script>
+  </header>
+  <main>
+    <section class="main-banner">
+      <div class="flex-container">
+        <div class="flex-item">
+          <h1>Comox Valley Lifeline Society</h1>
+          <h2>Help At The Push Of A Button</h2>
+          <a class="lifeline-canada-mobile" href="https://www.lifeline.ca/en/">Lifeline Canada</a>
+          <p>Member of the Western Canadian Association of Lifeline Programs</p>
+          <a class="button" href="http://www.canwestlifeline.com/">Learn More</a>
+          <a class="lifeline-canada-desktop" href="https://www.lifeline.ca/en/">Lifeline Canada</a>
+        </div>
+        <img src="images/old-peoples.png" alt="old-peoples">
+      </div>
+    </section>
+    <section class="map">
+      <h1>Contact us</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d330398.4216498047!2d-124.99701300000001!3d49.687497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881475935e7113%3A0x1607378974d28874!2zMzkyIDEwdGggU3QsIENvdXJ0ZW5heSwgQkMgVjlOIDFQNSDjgqvjg4rjg4A!5e0!3m2!1sja!2sus!4v1701198845821!5m2!1sja!2sus"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="office-phone-numbers">
+      <img src="images/phone.png" alt="phone">
+      <h2>Office Phone Numbers</h2>
+      <table>
+        <tr>
+          <td>Cowichan Valley Lifeline</td>
+          <td>(250) 746 - 0814</td>
+        </tr>
+        <tr>
+          <td>Chemainus-Crofton Lifeline</td>
+          <td>(250) 246 - 3883</td>
+        </tr>
+        <tr>
+          <td>Sunshine Coast Lifeline</td>
+          <td>(604) 885 - 9501</td>
+        </tr>
+        <tr>
+          <td>Vancouver Island North Dial Toll Free</td>
+          <td>1- 866 - 205 - 6160</td>
+        </tr>
+        <tr>
+          <td>Fax Number For All Areas</td>
+          <td>(250) 338 - 4922</td>
+        </tr>
+      </table>
+    </section>
+    <section class="our-main-office-location">
+      <h2>Our Main Office Location</h2>
+      <div class="flex-container">
+        <div class="item">
+          <div class="background-image map">
+            <img src="images/map-marker.png" alt="map-marker">
+            <h2>The administration office</h2>
+            <ul>
+              <li>Comox Valley Lifeline Society</li>
+              <li>392 - 10th Street</li>
+              <li>Courtenay, BC V9N 1P5</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="background-image clock">
+            <img src="images/clock.png" alt="clock">
+            <h2>Administration Office Hours</h2>
+            <ul>
+              <li>Monday to Friday, 9:00AM to 5:00PM</li>
+              <li>Closed on Holidays</li>
+              <li>Phone: (250) 338 - 4255</li>
+              <li>Fax: (250) 338 - 4922</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="by-email">
+      <img src="images/mail-icon.png" alt="mail-icon">
+      <div class="item">
+        <h2>By Email</h2>
+        <p>Please use the form below to send us your questions about the Comox Valley Lifeline services. One of our
+          Area
+          Coordinators will back to you in the next business day. The information you provide here is used only by
+          the
+          Comox
+          Valley Lifeline Society, it is never sold or shared with third parties.</p>
+      </div>
+    </section>
+    <section class="request-information">
+      <img src="images/info.png" alt="info">
+      <h2>Request Information</h2>
+      <p>Call 1 - 866 - 205 - 6160
+        or fill out the form below</p>
+      <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="flex-container">
+      <img src="images/logo.png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service-options.html">About us</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be
+        seen
+        outside of the class environment. None of the content and images were approved by the business owner.</i></p>
+  </footer>
+</body>
+
+</html>

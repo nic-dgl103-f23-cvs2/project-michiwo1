@@ -1,0 +1,932 @@
+/* ======== Html ======== */
+html {
+  /* The font size is larger as the site is aimed at older people. */
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #424B5A;
+}
+
+/* ======== Body ======== */
+body {
+  margin: 0;
+}
+
+/* ======== Global ======== */
+
+.wrapper-width {
+  padding: 1rem;
+}
+
+/* ======== Header - Mobile ======== */
+header {
+  background-color: #E7F5F3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+header img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+header nav {
+  display: none;
+}
+
+header nav.show {
+  display: block;
+  position: absolute;
+  top: 100%;
+  background-color: #248F76;
+  overflow: hidden;
+  font-size: 16px;
+  width: 100%;
+  left: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+  border-bottom: 0.6px solid #A1AEB7;
+}
+
+header nav li a:hover {
+  background-color: #2fb596;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+header .toggle {
+  margin-right: 2rem;
+}
+
+/* ======== Footer - Mobile ======== */
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+footer nav {
+  margin-bottom: 3rem;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+footer li {
+  margin: 1rem 2rem 0 0;
+}
+
+footer p {
+  border-top: 1px solid #A1AEB7;
+  padding-top: 1rem;
+  color: #A1AEB7;
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #505D68;
+  font-size: 18px;
+}
+
+footer img {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 16px;
+}
+
+/* ======== Home Page ======== */
+/* ======== Main Banner - Mobile ======== */
+.main-banner {
+  background-image: url(images/old-peoples.png);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+  background-size: cover;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-banner h1 {
+  margin: 0;
+  padding: 1rem;
+}
+
+.main-banner h2 {
+  margin: 0;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.main-banner p {
+  margin: 1rem;
+  font-size: 16px;
+}
+
+.main-banner a {
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.main-banner img {
+  display: none;
+}
+
+.main-banner .button {
+  background-color: #248F76;
+  color: #ffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6rem 3rem 0.6rem 3rem;
+  margin: 1rem;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 20%;
+}
+
+.main-banner .lifeline-canada-desktop {
+  display: none;
+}
+
+/* ======== Main Content - Mobile ======== */
+.main-content {
+  background-color: #F5FCFB;
+  text-align: center;
+}
+
+.main-content h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
+.main-content p {
+  color: #A1AEB7
+}
+
+.main-content img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.main-content .item {
+  margin: 2rem 0;
+}
+
+.main-content .item-for-desktop {
+  display: none;
+}
+
+/* ======== Content Columns - Mobile ======== */
+.content-columns {
+  text-align: center;
+}
+
+.content-columns img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.content-columns p {
+  color: #A1AEB7
+}
+
+.content-columns .item-for-desktop {
+  display: none;
+}
+
+.content-columns .item {
+  background-color: #F5FCFB;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  text-align: left;
+}
+
+/* ======== Types of Services - Mobile ======== */
+.types-of-services {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.types-of-services h3 {
+  margin: 0;
+}
+
+.types-of-services i {
+  font-size: 30px;
+  margin-right: 1rem;
+  margin-top: 0.1rem;
+}
+
+.types-of-services p {
+  color: #A1AEB7
+}
+
+.types-of-services a {
+  background-color: #248F76;
+  color: #ffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6rem 3rem 0.6rem 3rem;
+  margin: 1.5rem;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 20%;
+}
+
+.types-of-services .item {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.6px solid #A1AEB7;
+  text-align: left;
+}
+
+.types-of-services .icon-item {
+  display: flex;
+}
+
+/* ======== Video Section - Mobile ======== */
+.video-section {
+  text-align: center;
+  padding: 1rem;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.video-section iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== How Lifeline Works - Mobile ======== */
+.how-lifeline-works {
+  text-align: center;
+  color: #A1AEB7;
+  padding: 1rem;
+}
+
+.how-lifeline-works h2 {
+  color: #424B5A;
+}
+
+.how-lifeline-works i {
+  font-size: 35px;
+  display: block;
+}
+
+.how-lifeline-works p {
+  font-size: 22px;
+}
+
+.how-lifeline-works span {
+  font-size: 50px;
+  border-radius: 50%;
+  border: 1px solid #A1AEB7;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  color: #A1AEB7;
+  margin: 2rem;
+}
+
+.how-lifeline-works .item {
+  margin: 0;
+  padding: 1rem;
+}
+
+/* ======== Service Options Page ======== */
+/* ======== Lifeline Communicator Units - Mobile ======== */
+.lifeline-communicator-units {
+  text-align: center;
+  padding: 1rem;
+}
+
+.lifeline-communicator-units h2 {
+  font-size: 30px;
+}
+
+.lifeline-communicator-units p {
+  color: #A1AEB7;
+}
+
+.lifeline-communicator-units img {
+  max-width: 100%;
+  border-radius: 4px;
+  transition: transform 0.6s ease;
+}
+
+.lifeline-communicator-units img:hover {
+  transform: scale(1.05);
+}
+
+.lifeline-communicator-units .container-for-desktop {
+  display: none;
+}
+
+/* ======== Personal Help Buttons - Mobile ======== */
+.personal-help-buttons {
+  text-align: center;
+  background-color: #E7F5F3;
+  padding: 1rem;
+}
+
+.personal-help-buttons img {
+  max-width: 100%;
+  border-radius: 4px;
+  transition: transform 0.6s ease;
+}
+
+.personal-help-buttons img:hover {
+  transform: scale(1.05);
+}
+
+.personal-help-buttons ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.personal-help-buttons p {
+  color: #A1AEB7;
+  font-size: 18px;
+}
+
+.personal-help-buttons ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 0.5px solid #A1AEB7;
+  color: #A1AEB7;
+  font-size: 20px;
+}
+
+.personal-help-buttons .flex-item {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background-color: #ffff;
+}
+
+/* ======== Contact Us Page ======== */
+/* ======== Map - Mobile ======== */
+.map {
+  text-align: center;
+  padding: 1rem;
+}
+
+.map iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.map iframe:hover {
+  transform: scale(1.1);
+}
+
+/* ======== Office phone numbers - Mobile ======== */
+.office-phone-numbers {
+  text-align: center;
+  padding: 1rem;
+}
+
+.office-phone-numbers h2 {
+  font-size: 30px;
+}
+
+.office-phone-numbers img {
+  max-width: 20%;
+}
+
+.office-phone-numbers table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.office-phone-numbers th {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.office-phone-numbers td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* ======== Our Main Office Location - Mobile ======== */
+.our-main-office-location {
+  text-align: center;
+  padding: 1rem;
+  background-color: #E7F5F3;
+}
+
+.our-main-office-location h2 {
+  font-size: 30px;
+}
+
+.our-main-office-location ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.our-main-office-location li {
+  margin-bottom: 10px;
+  color: #A1AEB7;
+  font-size: 20px;
+}
+
+.our-main-office-location img {
+  max-width: 20%;
+}
+
+.our-main-office-location .item {
+  border-radius: 8px;
+  background-color: #ffff;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.our-main-office-location .item .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ======== By Email - Mobile ======== */
+.by-email {
+  text-align: center;
+  padding: 1rem;
+}
+
+.by-email h2 {
+  font-size: 30px;
+}
+
+.by-email p {
+  font-size: 20px;
+  color: #A1AEB7;
+}
+
+.by-email img {
+  max-width: 20%;
+}
+
+/* ======== Request Information - Mobile ======== */
+.request-information {
+  text-align: center;
+  padding: 1rem;
+}
+
+.request-information h2 {
+  font-size: 30px;
+}
+
+.request-information p {
+  font-size: 20px;
+  color: #A1AEB7;
+}
+
+.request-information img {
+  max-width: 20%;
+}
+
+.request-information form {
+  width: 100%;
+}
+
+.request-information label {
+  margin-bottom: 5px;
+  color: #666666;
+  font-size: 18px;
+}
+
+.request-information input[type="text"],
+.request-information input[type="email"],
+.request-information textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.request-information input[type="submit"] {
+  padding: 0.6rem 3rem 0.6rem 3rem;
+  background-color: #248F76;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  /* ======== Header - Desktop ======== */
+  header {
+    justify-content: space-between;
+  }
+
+  header nav {
+    display: block;
+    margin-right: 2rem;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  header li {
+    margin: 0 2rem;
+    list-style: none;
+  }
+
+  header nav li a {
+    font-size: 16px;
+    color: #505D68;
+    padding: 0;
+    border-bottom: 0;
+  }
+
+  header nav li a:hover {
+    color: #292e38;
+    transform: scale(1.1);
+    background-color: #E7F5F3;
+  }
+
+  header .toggle {
+    display: none;
+  }
+
+  /* ======== Footer - Desktop ======== */
+  footer {
+    border-top: 0.6px solid #A1AEB7;
+    padding: 2rem 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  footer ul {
+    display: flex;
+  }
+
+  footer img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  footer .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer p {
+    border: 0;
+  }
+
+  /* ======== Home Page ======== */
+  /* ======== Main Banner - Desktop ======== */
+  .main-banner {
+    background-image: none;
+    background-color: #F5FCFB;
+  }
+
+  .main-banner img {
+    display: inline-block;
+  }
+
+  .main-banner p {
+    color: #A1AEB7;
+    font-size: 20px;
+  }
+
+  .main-banner h2 {
+    margin: 0;
+    font-size: 24px;
+    padding: 1rem;
+  }
+
+  .main-banner .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-banner .flex-item {
+    text-align: left;
+    padding: 2rem;
+  }
+
+  .main-banner .lifeline-canada-mobile {
+    display: none;
+  }
+
+  .main-banner .lifeline-canada-desktop {
+    display: inline;
+  }
+
+  .main-banner .button {
+    background-color: #248F76;
+    color: #ffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    margin: 1rem;
+    font-size: 12px;
+    border-radius: 4px;
+    width: 20%;
+    text-align: center;
+  }
+
+  /* ======== Main Content - Desktop ======== */
+  .main-content {
+    padding: 2rem;
+  }
+
+  .main-content p {
+    padding: 3rem;
+  }
+
+  .main-content .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .main-content .item-for-mobile {
+    display: none;
+  }
+
+  .main-content .item-for-desktop {
+    display: block;
+  }
+
+  /* ======== Content Columns - Desktop ======== */
+  .content-columns {
+    margin: 2rem;
+  }
+
+  .content-columns .item-for-mobile {
+    display: none;
+  }
+
+  .content-columns .item-for-desktop {
+    display: block;
+  }
+
+  .content-columns .item {
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .content-columns .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+
+  .content-columns .grid-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .content-columns .grid-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .content-columns .grid-3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  /* ======== Types of Services - Desktop ======== */
+  .types-of-services {
+    padding: 2rem 3rem;
+  }
+
+  .types-of-services a {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+  }
+
+  /* ======== Video Section - Desktop ======== */
+  .video-section iframe {
+    width: 60%;
+    height: 500px;
+    border: none;
+  }
+
+  /* ======== How-lifeline-works - Desktop ======== */
+  .how-lifeline-works .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  /* ======== Service Options Page ======== */
+  /* ======== Lifeline Communicator Units - Desktop ======== */
+  .lifeline-communicator-units {
+    text-align: left;
+  }
+
+  .lifeline-communicator-units h1 {
+    text-align: center;
+  }
+
+  .lifeline-communicator-units .flex-container {
+    display: flex;
+    padding: 2rem;
+    margin: 3rem;
+    text-align: left;
+    transition: transform 0.6s ease;
+    border-radius: 30px;
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .lifeline-communicator-units .flex-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .lifeline-communicator-units .flex-item {
+    padding: 3rem;
+  }
+
+  .lifeline-communicator-units .container-for-mobile {
+    display: none;
+  }
+
+  /* ======== Personal Help Buttons - Desktop ======== */
+  .personal-help-buttons .flex-container {
+    display: flex;
+  }
+
+  .personal-help-buttons .flex-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0;
+    background-color: #ffff;
+    flex: 1;
+    object-fit: cover;
+  }
+
+  .personal-help-buttons img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* ======== Contact Us Page ======== */
+  /* ======== Map - Desktop ======== */
+  .map iframe {
+    width: 50%;
+    height: 450px;
+  }
+
+  /* ======== Office Phone Numbers - Desktop ======== */
+  .office-phone-numbers {
+    text-align: center;
+    padding: 4rem 8rem;
+  }
+
+  .office-phone-numbers h2 {
+    font-size: 35px;
+  }
+
+  .office-phone-numbers img {
+    max-width: 10%;
+  }
+
+  .office-phone-numbers table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  .office-phone-numbers td {
+    font-size: 25px;
+  }
+
+  /* ======== Our Main Office Location - Desktop ======== */
+  .our-main-office-location {
+    text-align: center;
+    padding: 3rem 5rem;
+  }
+
+  .our-main-office-location h2 {
+    font-size: 35px;
+  }
+
+  .our-main-office-location ul {
+    text-align: center;
+  }
+
+  .our-main-office-location ul li {
+    color: #424B5A;
+    font-size: 25px;
+  }
+
+  .our-main-office-location img {
+    display: none;
+  }
+
+  .our-main-office-location .flex-container {
+    display: flex;
+  }
+
+  .our-main-office-location .item {
+    margin: 1rem;
+  }
+
+  .our-main-office-location .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    background-size: 70%;
+    background-position: center;
+    padding: 3rem 1rem;
+  }
+
+  .our-main-office-location .map {
+    background-image: url('images/map-marker.png');
+  }
+
+  .our-main-office-location .clock {
+    background-image: url('images/clock.png');
+  }
+
+  /* ======== By Email - Desktop ======== */
+  .by-email {
+    text-align: center;
+    padding: 2rem 10rem;
+  }
+
+  .by-email h2 {
+    font-size: 35px;
+  }
+
+  .by-email img {
+    max-width: 15%;
+  }
+
+  .by-email .item {
+    margin: 2rem 4rem;
+    font-size: 25px;
+  }
+
+  /* ======== Request Information - Desktop ======== */
+  .request-information {
+    text-align: center;
+    max-width: 50%;
+    padding: 1rem 10rem;
+    margin: auto;
+  }
+
+  .request-information h2 {
+    font-size: 35px;
+  }
+
+  .request-information p {
+    font-size: 25px;
+  }
+}
