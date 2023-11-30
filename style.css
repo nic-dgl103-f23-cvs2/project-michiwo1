@@ -361,6 +361,11 @@ footer img {
 .personal-help-buttons img {
   max-width: 100%;
   border-radius: 4px;
+  transition: transform 0.6s ease;
+}
+
+.personal-help-buttons img:hover {
+  transform: scale(1.05);
 }
 
 .personal-help-buttons ul {
@@ -387,14 +392,6 @@ footer img {
   margin: 1rem 0;
   border-radius: 8px;
   background-color: #ffff;
-  transition: transform 0.6s ease;
-}
-
-.personal-help-buttons .flex-item:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  z-index: 0;
 }
 
 /* ======== Contact Us Page ======== */
@@ -409,11 +406,11 @@ footer img {
   height: 350px;
   border: none;
   border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 }
 
 .map iframe:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* ======== Office phone numbers - Mobile ======== */
