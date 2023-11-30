@@ -572,6 +572,12 @@ footer img {
     border-bottom: 0;
   }
 
+  header nav li a:hover {
+    color: #292e38;
+    transform: scale(1.1);
+    background-color: #E7F5F3;
+  }
+
   header .toggle {
     display: none;
   }
