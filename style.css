@@ -340,6 +340,11 @@ footer img {
 .lifeline-communicator-units img {
   max-width: 100%;
   border-radius: 4px;
+  transition: transform 0.6s ease;
+}
+
+.lifeline-communicator-units img:hover {
+  transform: scale(1.05);
 }
 
 .lifeline-communicator-units .container-for-desktop {
@@ -382,6 +387,14 @@ footer img {
   margin: 1rem 0;
   border-radius: 8px;
   background-color: #ffff;
+  transition: transform 0.6s ease;
+}
+
+.personal-help-buttons .flex-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 0;
 }
 
 /* ======== Contact Us Page ======== */
@@ -762,11 +775,17 @@ footer img {
   .lifeline-communicator-units .flex-container {
     display: flex;
     padding: 2rem;
+    margin: 3rem;
     text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease;
     border-radius: 30px;
     margin-top: 2rem;
     align-items: center;
+  }
+
+  .lifeline-communicator-units .flex-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   }
 
   .lifeline-communicator-units .flex-item {
